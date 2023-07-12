@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Awesome Registration System</title>
+</head>
+<body>
+    <header class="container">
+        <h1>Awesome user Registration System</h1>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Register</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+              </li>
+        </ul>
+</header>
+    <main class="container">
+       <h2>Register a new user</h2> 
+       
+        <div class=" mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="txtEmail" placeholder="name@example.com">
+        </div>
+          <div class=" mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="txtpassword" placeholder="Enter Password">
+          </div>
+            <div class=" mb-3">
+              <label for="exampleFormControlInput1" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="txtFName" placeholder="Enter First Name">
+            </div>
+              <div class=" mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="txtLName" placeholder="Enter Last Name">
+              </div>
+                <div class=" mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Age</label>
+                  <input type="number" class="form-control" id="txtAge" placeholder="Enter Age">
+                </div>
+                  <div class=" mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Enter your Grade 101:</label>
+                    <input type="number" class="form-control" id="txtGrade1" placeholder="Enter your Grade">
+                  </div>
+                  <div class=" mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Enter your Grade 102:</label>
+                    <input type="number" class="form-control" id="txtGrade2" placeholder="Enter your Grade">
+                  </div>
+                  <div class=" mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">EEnter your Grade 103:</label>
+                    <input type="number" class="form-control" id="txtGrade3" placeholder="Enter your Grade">
+                  </div>
+
+                  <button class="btn btn-primary" onclick="register();">Add</button>
+    
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./register.js"></script>
+</body>
+</html>
